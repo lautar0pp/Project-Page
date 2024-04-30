@@ -1,0 +1,185 @@
+/* styles.css */
+
+* {
+    font-family: "Roboto";
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.container {
+    background-color: #1F2937;
+    padding: 10px 90px;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h2 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+    margin-bottom: 0;
+}
+.main-left,
+.individual p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+h1 {
+    color: #f9faf8;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+button {
+    background-color: #3882f6;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: white;
+    border: none;
+    font-weight: 900;
+    width: 100px;
+}
+ul {
+    display: flex;
+    list-style-type: none;
+    gap: 16px;
+}
+
+a {
+    font-size: 18px;
+    color: #E5E7EB;
+    text-decoration: none;
+}
+
+.main-right {
+    height: 200px;
+    width: 450px;
+    background-color: #6d747d;
+}
+
+.main-right span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: auto;
+    color: white;
+}
+
+.main-left {
+    flex: 1;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.header,
+.main {
+    padding:0 100px 90px 100px;
+}
+
+.main-right,
+.main-left {
+    display: flex;
+    flex-direction:column;
+}
+
+.images {
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    padding: 20px 280px 100px 280px;
+}
+
+.gallery {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex: 1 auto;
+}
+
+.gallery p {
+    color: #4b5563;
+}
+.images h2 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    margin: 0 auto;
+}
+
+.square {
+    width: 160px;
+    height: 160px;
+    border: 5px solid #3b82f6;
+    border-radius: 25px;
+    display: flex;
+    flex: auto;
+    gap: 30px;
+}
+
+.individual {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    max-width: 200px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    quotes: none;
+    font: 350 italic 36px "Roboto";
+    padding: 80px 200px;
+}
+
+.quote p {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.last {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 100px;
+}
+
+.pop-up {
+    display: flex;
+    background-color: #3b82f6;
+    border-radius: 10px;
+    padding: 30px 30px;
+    color: white;
+    gap: 50px;
+}
+
+.pop-up button {
+    border: 2px solid white;
+    padding: 2px 10px;
+    height: 50px;
+    margin: auto 0;
+}
+
+.footer {
+    background-color: #1f2937;
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
